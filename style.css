@@ -1,0 +1,17 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+
+}
+
+#header {
+  padding: 1em;
+  background-color: #404445;
+  color: white;
+}
+
+
+
+#logo-main{
+padding-left: 35em;
+}
