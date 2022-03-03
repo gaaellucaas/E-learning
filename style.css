@@ -1,18 +1,20 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
+  margin: 0;
 
 }
 
 #header {
-  padding: 1em;
   background-color: #404445;
   color: white;
 }
 
-.Login > ul{ list-style-type: none;}
-.Login > ul > li { display: inline-block;}
+#Login > ul{ list-style-type: none;}
+#Login > ul > li { display: inline-block;}
 }
+
+
 
 #recuadro-menu{
 background-color: white:
@@ -20,19 +22,51 @@ background-color: white:
 
 #menu {
   padding: 1em;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 #menu > ul {
   margin: 0;
   padding: 0;
+  margin-left: 30em;
   list-style-type: none;
-  color:white;
+  font-size: 0.8em;
+  color:black;
 }
 
 #menu > ul > li {
   display: inline-block;
   padding: 0.5em;
   border-left: thin solid white;
+}
+
+#content{
+padding: 7em;
+text-align: center;
+background-image: url(imagenes/foto1.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+#content h1{
+color: green;
+}
+#content h2{
+color: white;
+}
+
+#content > ul {
+  list-style-type: none;
+}
+
+.imagen-medio img {
+width: 100%;
+max-width: 100%;
+}
+
+.barra-buscadora{
+padding-top: 2em;
+
 }
