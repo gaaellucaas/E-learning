@@ -104,10 +104,14 @@ padding-top: 2em;
       grid-template-columns: 1fr;
     }
 
-    .footer-column {
+    .footer-column  {
+
       text-align: center;
       font-size: 2em;
+
     }
+
+
 
     .footer-column h6 {
       margin-bottom: 1em;
@@ -118,3 +122,11 @@ padding-top: 2em;
     }
 
   }
+
+.search{
+  background-color: green;
+padding: 0.5em;
+margin-left: -1em;
+  color: white;
+
+}
