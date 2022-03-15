@@ -72,6 +72,53 @@ padding-top: 2em;
 
 }
 
+#medio-a{
+background-color: white;
+list-style-type: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+font-size: 150%;
+color: black;
+padding: 4em;
+padding-left: 12em;
+padding-right: 12em;
+line-height: 150%,
+}
+.Edu> ul > li {
+list-style-type: none;
+font-size: 0.9em;
+text-align: center;
+color: grey;
+}
+
+.Edu h6 {
+padding-left: 40%;
+font-size: 1em;
+}
+
+.Travel > ul > li{
+list-style-type: none;
+font-size: 0.9em;
+text-align: center;
+color: grey;
+}
+.Travel h6{
+padding-left: 45%;
+font-size: 1em;
+}
+
+.Career > ul > li {
+list-style-type: none;
+font-size: 0.9em;
+text-align: center;
+color: grey;
+}
+
+.Career h6 {
+padding-left: 40%;
+font-size: 1em;
+}
+}
 #medio{
 background-color: ;
 }
@@ -160,7 +207,18 @@ color: white;
 
 @media (max-width: 1024px) {
 
-
+#medio-a{
+background-color: white;
+list-style-type: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+font-size: 120%;
+color: black;
+padding: 2.5em;
+padding-left: 12em;
+padding-right: 12em;
+line-height: 150%,
+  }
 #footer {
 padding-left: 1em;
 padding-right: 1em;
