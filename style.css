@@ -156,15 +156,21 @@ margin-left: -1em;
 color: white;
 
 }
+
+
 @media (max-width: 1024px) {
 
 
-
+#footer {
+padding-left: 1em;
+padding-right: 1em;
+}
 
 .footer-column  {
+
 padding: 1em;
 text-align: grid;
-font-size: -3em;
+font-size: 0.8em;
 
     }
 
@@ -173,10 +179,9 @@ margin-bottom: 1em;
 font-size: 1em;
   }
 
+
 .footer-columns {
-margin-right: 5em;
-margin-left:-5em;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr;
     }
 
 
